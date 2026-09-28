@@ -10,14 +10,18 @@ A simple, ready-to-use Webpack 5 starter template for vanilla JavaScript project
 - Asset handling for images
 - Dev server with hot reload
 
-## Setup
+## Setup (Note: Do these steps in order)
 
 1. Click the **"Use this template"** button on GitHub, or clone it.
-2. Install dependencies: `npm install`.
-3. Optionally run `npm init -y` to auto-populate repository metadata from your git remote.
-4. Start developing: `npm start` (`http://localhost:8080` with hot reload).
+2. Run `npm init -y` to auto-populate repository metadata from your git remote.
+3. Install dependencies: `npm install`.
+4. Start developing: `npm start` — opens http://localhost:8080 with hot reload.
 
 ## Build for production
 
 1. Run the production script: `npm run build`.
 2. Output goes to `dist/`.
+
+> **Note:** This template intentionally does not ship a `package-lock.json`.
+> Once you've installed dependencies, commit the generated lock file to your
+> own repo for reproducible builds.
