@@ -1,23 +1,11 @@
 {
-  "name": "webpack-template",
-  "version": "1.0.0",
-  "description": "A simple template of Webpack structure.",
-  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AminDanaaa/webpack-template.git"
-  },
-  "keywords": [],
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/AminDanaaa/webpack-template/issues"
-  },
-  "homepage": "https://github.com/AminDanaaa/webpack-template#readme",
   "devDependencies": {
     "css-loader": "^7.1.5",
     "html-loader": "^5.1.0",
